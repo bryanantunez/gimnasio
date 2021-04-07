@@ -25,6 +25,7 @@ p {
     left: 0%;
     top: 0%;
     right: 0%;
+    z-index: 30;
 }
 
 .header a {
@@ -37,6 +38,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 3;
 }
 
 .logo {
@@ -129,4 +131,16 @@ p {
     display: inline-block;
     margin-top: 30px;
     text-align: center;
+}
+
+.carru {
+    z-index: 0;
+}
+
+.prev {
+    color: rgb(0, 0, 0);
+}
+
+.next {
+    color: rgb(0, 0, 0);
 }
