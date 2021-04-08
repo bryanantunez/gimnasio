@@ -11,7 +11,7 @@
         margin-bottom: 1.6em;
     }
     
-    .container {
+    .carru {
         width: 85%;
         max-width: 850px;
         margin: 0 auto;
@@ -89,6 +89,7 @@
     }
     
     .izquierda {
+        width: 120%;
         height: 100vh;
         background-color: #c0c0c0;
         text-align: center;
@@ -97,7 +98,7 @@
     .derecha {
         background-size: cover;
         background-position: center;
-        width: 100%;
+        width: 80%;
         height: 100vh;
     }
     
@@ -149,3 +150,9 @@
         letter-spacing: 15px;
         font-size: 1.3em;
     }
+    
+    .ki {
+        color: black;
+    }
+    
+    .divi {}

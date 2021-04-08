@@ -1,0 +1,118 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.4em;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 1.6em;
+}
+
+.carru {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #333;
+    color: #ffffff;
+    padding: 2rem 0;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    z-index: 30;
+}
+
+.header a {
+    color: #ffffff;
+    text-decoration: none;
+    align-items: center;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+}
+
+.logo {
+    letter-spacing: 15px;
+    font-size: 1.3em;
+}
+
+.navegacion ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navegacion ul li {
+    display: inline-block;
+}
+
+.navegacion ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navegacion ul li a:hover {
+    background: #747474af;
+}
+
+.izquierda {
+    margin-top: 10rem;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    width: 32%;
+    height: 75vh;
+    margin-left: 2.8rem;
+    background-color: rgb(211, 211, 211);
+}
+
+.medio {
+    margin-top: 10rem;
+    background-size: cover;
+    background-position: center;
+    width: 32%;
+    height: 75vh;
+    background-color: rgb(146, 146, 146);
+}
+
+.derecha {
+    margin-top: 10rem;
+    background-size: cover;
+    background-position: center;
+    width: 32%;
+    height: 75vh;
+    background-color: rgb(94, 92, 92);
+}
+
+#pantalla-dividida {
+    display: flex;
+}
+
+.letra {
+    text-align: center;
+}
+
+.boton {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 15rem;
+}
